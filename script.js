@@ -4,56 +4,56 @@ id:1,
 name:"One Piece Vol. 1",
 price:499,
 category:"Shonen",
-image:"images/onepiece.jpg"
+image:"onepiece.jpg"
 },
 {
 id:2,
 name:"Naruto Vol. 1",
 price:449,
 category:"Shonen",
-image:"images/naruto.jpg"
+image:"naruto.jpg"
 },
 {
 id:3,
 name:"Bleach Vol. 1",
 price:479,
 category:"Shonen",
-image:"images/Bleach vol.1.jpg"
+image:"Bleach vol.1.jpg"
 },
 {
 id:4,
 name:"Attack On Titan Vol. 1",
 price:599,
 category:"Seinen",
-image:"images/Attack on titan.jpg"
+image:"Attack on titan.jpg"
 },
 {
 id:5,
 name:"Tokyo Ghoul",
 price:569,
 category:"Seinen",
-image:"images/Tokyo Ghoul.jpg"
+image:"Tokyo Ghoul.jpg"
 },
 {
 id:6,
 name:"Berserk",
 price:799,
 category:"Seinen",
-image:"images/Berserk.jpg"
+image:"Berserk.jpg"
 },
 {
 id:7,
 name:"Chainsaw Man",
 price:549,
 category:"Fantasy",
-image:"images/Chainsaw Man.jpg"
+image:"Chainsaw Man.jpg"
 },
 {
 id:8,
 name:"Jujutsu Kaisen",
 price:529,
 category:"Fantasy",
-image:"images/Jujutsu kaisen.jpg"
+image:"Jujutsu kaisen.jpg"
 }
 ];
 
