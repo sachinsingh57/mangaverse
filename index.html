@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mangaverse</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  >
+</head>
+
+<body>
+
+<!-- HEADER -->
+
+<header class="header">
+
+  <div class="logo">
+    Mangaverse
+  </div>
+
+  <nav class="nav">
+
+    <a href="#">Home</a>
+
+    <a href="#featured">
+      Featured
+    </a>
+
+    <a href="#categories">
+      Categories
+    </a>
+
+    <a href="#new">
+      New Releases
+    </a>
+
+  </nav>
+
+  <div class="header-right">
+
+    <input
+      type="text"
+      id="search"
+      placeholder="Search manga..."
+      class="search-box"
+    >
+
+    <button
+      class="cart-btn"
+      onclick="toggleCart()"
+    >
+      <i class="fa-solid fa-cart-shopping"></i>
+
+      <span id="cartCount">
+        0
+      </span>
+    </button>
+
+  </div>
+
+</header>
+
+<!-- HERO -->
+
+<section class="hero">
+
+  <div class="hero-overlay"></div>
+
+  <div class="hero-content">
+
+    <h1>
+India's Manga Universe
+</h1>
+
+<p>
+Shop bestselling manga volumes from your favorite series.
+</p>
+
+    <button class="hero-btn">
+      Shop Now
+    </button>
+
+  </div>
+
+</section>
+
+<!-- CATEGORIES -->
+
+<section
+  class="categories"
+  id="categories"
+>
+
+  <h2>
+    Categories
+  </h2>
+
+  <div class="category-grid">
+
+    <div
+      class="category-card"
+      onclick="filterCategory('All')"
+    >
+      All
+    </div>
+
+    <div
+      class="category-card"
+      onclick="filterCategory('Shonen')"
+    >
+      Shonen
+    </div>
+
+    <div
+      class="category-card"
+      onclick="filterCategory('Seinen')"
+    >
+      Seinen
+    </div>
+
+    <div
+      class="category-card"
+      onclick="filterCategory('Fantasy')"
+    >
+      Fantasy
+    </div>
+
+  </div>
+
+</section>
+
+<!-- FEATURED PRODUCTS -->
+
+<section
+  class="featured"
+  id="featured"
+>
+
+  <div class="section-header">
+
+    <h2>
+      Featured Manga
+    </h2>
+
+  </div>
+
+  <div
+    class="products"
+    id="products"
+  >
+
+  </div>
+
+</section>
+
+<!-- NEW RELEASES -->
+
+<section
+  class="new-release"
+  id="new"
+>
+
+  <div class="section-header">
+
+    <h2>
+      New Releases
+    </h2>
+
+  </div>
+
+  <div
+    class="products"
+    id="newProducts"
+  >
+
+  </div>
+
+</section>
+
+<!-- CART SIDEBAR -->
+
+<div
+  class="cart-sidebar"
+  id="cartSidebar"
+>
+
+  <div class="cart-top">
+
+    <h2>
+      Your Cart
+    </h2>
+
+    <button
+      class="close-btn"
+      onclick="toggleCart()"
+    >
+      ✕
+    </button>
+
+  </div>
+
+  <div
+    id="cartItems"
+    class="cart-items"
+  >
+
+  </div>
+
+  <div class="cart-bottom">
+
+    <h3>
+      Total:
+      ₹<span id="cartTotal">
+        0
+      </span>
+    </h3>
+
+    <button
+      class="checkout-btn"
+    >
+      Buy Now
+    </button>
+
+  </div>
+
+</div>
+
+<!-- FOOTER -->
+
+<footer>
+
+  <div class="footer-content">
+
+    <h3>Mangaverse</h3>
+
+    <p>Premium Manga Store</p>
+
+    <div class="social-links">
+
+      <a
+        href="https://instagram.com/yourusername"
+        target="_blank"
+      >
+        <i class="fa-brands fa-instagram"></i>
+      </a>
+
+     <a
+  href="https://www.youtube.com/@Mrworld04"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <i class="fa-brands fa-youtube"></i>
+</a>
+
+    </div>
+
+  </div>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
